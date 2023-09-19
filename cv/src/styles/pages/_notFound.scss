@@ -1,0 +1,33 @@
+body {
+    margin-top: 0px
+}
+
+.notFound {
+    @include verticalCenter;
+    background-color: $white;
+    height: 100vh;
+    background: url('../../media/background.jpg') no-repeat center/cover;
+    max-width: 1200px;
+    /*background: $color-4;*/
+    border-radius: $borderRadius;
+    text-align: center;
+
+    h3 {
+        margin-bottom: 3rem;
+        font-size: 2rem;
+        color: $color-5;
+
+    }
+
+    a {
+        padding: 1rem 2rem;
+        border-radius: $borderRadius;
+        background: $color-5;
+        transition: .2s;
+
+        &:hover {
+            background: $color-4;
+        }
+
+    }
+}
